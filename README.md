@@ -1,83 +1,78 @@
-# Expenses Management Platform
+# License Manager Dashboard
 
-![Project Logo](https://github.com/joaocba/outsystems_expenses-manager-app/blob/main/assets/img/logo.png?raw=true)
+This project, developed as part of my internship for the Citeforma .NET developer course certification, is a License Manager Dashboard. It enables clients to manage licenses for a proprietary ERP software web application. The dashboard supports role-based access for clients, regular users, and technical administrators, each with tailored features to streamline license management, billing, and platform administration.
 
-The final project for UpAcademy and Miles in the Sky is an expense management platform tailored for corporate use. Users can input two types of reports: expenses and earnings, each with detailed records that undergo administrator review for approval or rejection.
+### Important notice:
+This project is part of a larger ERP software web application. The code provided here represents the components I was directly involved in developing during my internship so please note that the available files may not represent the complete runnable application as this repository contains only the code specific to my contributions. To run the full application, other project components would need to be integrated.
 
 ## Video Presentation
 
 [![Video Presentation](https://img.youtube.com/vi/7z-pDWiCJIw/0.jpg)](https://www.youtube.com/watch?v=7z-pDWiCJIw)
 
-## User Dashboard
+## Features
 
-Upon authentication, users access a comprehensive dashboard featuring statistical summaries including available balance, monthly expenditure, earnings, and a comparison with the previous month. A chart visually represents expenses and earnings by date, alongside a breakdown of expenses by type. A donut chart illustrates earnings categories, while a status list tracks report progress. Notifications prompt users about drafts pending consideration.
+### 1. **Client Dashboard**
+- **License Management**:
+  - Purchase licenses (types: Basic, Medium, Pro), each offering a specific package of ERP modules.
+  - Upgrade or downgrade licenses, with automatic payment adjustments or wallet refunds for downgrades.
+  - Enable or disable licenses temporarily without unassigning users.
+  - Assign or unassign licenses to users, including bulk actions for multiple licenses.
+  - View detailed information for each license, including type, expiration, and assigned users.
+  - Monitor non-assigned licenses and expired licenses in separate lists.
 
-## Report List
+- **User Invitations**:
+  - Invite users via email to access specific licenses.
+  - Manage user assignments directly from the license panel.
 
-Users can view, filter, and search through their created reports, sorting by type, status, or date range. Each report's details are accessible via an accordion-style interface, offering further insights and actions such as viewing detailed records, including uploaded invoices.
+- **Billing and Payments**:
+  - Simulate license pricing and view detailed summaries before confirming transactions.
+  - Track wallet credits (from downgrades or other refunds) and default payment methods.
+  - Access a full transaction history and billing records.
 
-## Report Details
+- **Activity Tracking**:
+  - View comprehensive logs for all actions performed on the license manager panel, with filters for specific events and time ranges.
 
-Detailed views of report records enable users to manage expenses efficiently, including downloading invoices, editing fields, deleting expenses, or submitting/deleting the entire report. Confirmation prompts ensure accuracy in actions taken.
+### 2. **Tech Admin Dashboard**
+- **License Inspector**:
+  - Inspect details of all licenses across the platform, with filters and search options for efficient navigation.
 
-## Blog
+- **User Management**:
+  - Administer users across the platform, with options for creating, editing, and assigning roles.
 
-The platform includes a blog section for viewing or creating posts, with editing privileges reserved for administrators. Additionally, a menu of tools initially developed during the training is available.
+- **Package Manager**:
+  - Manage the available ERP software modules within each license package, and adjust settings as necessary.
 
-## Administrator Dashboard
+- **Platform Settings**:
+  - Configure platform-wide settings, including:
+    - General settings: language, time, maintenance options.
+    - License settings: base prices, quantity-based discounts, temporarily disable licenses for specific clients or companies.
+    - Payment settings: available payment methods, invoice templates, and transaction settings.
 
-Admins access a dedicated panel with statistical insights into total reports, pending verifications, and approval rates. They can filter and review all submitted reports, taking quick actions for approval or rejection directly from the dashboard or through a detailed evaluation page.
+### 3. **Regular User Dashboard**
+- **License Overview**:
+  - View metrics for the license(s) assigned to the user, including type, usage, and expiration date.
+  
+- **Profile Management**:
+  - Manage personal account settings, including password, notification preferences, and account details.
 
-## Best Practices
+- **Notifications & Messages**:
+  - Receive and review platform notifications and messages.
 
-This project streamlines the implementation of some of the best practices in OutSystems application development as instructed by MVP David Castro.
+## Project Architecture
 
-## Modules
+### Frontend
+- **ReactJs**: A fully responsive, dynamic, and fluid UI designed to work seamlessly across all device types. Tailored dashboards are rendered based on the user's role (Client, Tech Admin, Regular User).
 
-The project works on two modules:
-
-- Design and logic
-- Database management
-
-## Downloads
-
-- [Download Frontend Module (OML)](https://github.com/joaocba/outsystems_expenses-manager-app/blob/main/project_files/OML/frontend.oml)
-- [Download Core Module (OML)](https://github.com/joaocba/outsystems_expenses-manager-app/blob/main/project_files/OML/core.oml)
-- [Download App (OAP)](https://github.com/joaocba/outsystems_expenses-manager-app/blob/main/project_files/OML/core.oml)
-
-## Demo
-
-Access the demo [here](https://personal-4r6wfpcp.outsystemscloud.com/ExpensesManagerV2/).
-
-**User test account:**
-
-- Username: em_user1
-- Password: 123456
-
-**Admin test account:**
-
-- Username: em_admin
-- Password: 123456
+### Backend
+- **ASP.NET with Controller-Based APIs**: 
+  - Manages authentication, authorization, and all core business logic, including license actions, payments, and user management.
 
 ## Screenshots
 
 **User Dashboard**
 ![User Dashboard](https://github.com/joaocba/outsystems_expenses-manager-app/blob/main/screenshots/User_View_Dashboard.png?raw=true)
 
-**User View Report List**
-![User Report List](https://github.com/joaocba/outsystems_expenses-manager-app/blob/main/screenshots/User_View_Report_List.png?raw=true)
 
-**User Add New Report**
-![User Add New Report](https://github.com/joaocba/outsystems_expenses-manager-app/blob/main/screenshots/User_View_New_Report.png?raw=true)
+## License
 
-**User Add New Expense Detail**
-![User Add New Expense Detail](https://github.com/joaocba/outsystems_expenses-manager-app/blob/main/screenshots/User_View_New_Expense_Detail.png?raw=true)
-
-**User View Report Details**
-![User View Report Details](https://github.com/joaocba/outsystems_expenses-manager-app/blob/main/screenshots/User_View_New_Expense_Detail.png?raw=true)
-
-**Admin Dashboard**
-![Admin Dashboard](https://github.com/joaocba/outsystems_expenses-manager-app/blob/main/screenshots/Admin_View_Report_List.png?raw=true)
-
-**Admin View Report Details**
-![Admin View Report Details](https://github.com/joaocba/outsystems_expenses-manager-app/blob/main/screenshots/Admin_View_Report_Details.png?raw=true)
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
