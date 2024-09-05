@@ -8,6 +8,7 @@ This is part of a larger ERP software web application. The code provided here re
 ## Video Presentation
 
 [https://www.youtube.com/watch?v=h3iOI6brIro](https://www.youtube.com/watch?v=h3iOI6brIro)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/h3iOI6brIro/0.jpg)](https://www.youtube.com/watch?v=h3iOI6brIro)
 
 ## Features
 
