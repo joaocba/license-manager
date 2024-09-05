@@ -3,7 +3,7 @@
 This project, developed as part of my internship for the Citeforma .NET developer course certification, is a License Manager Dashboard. It enables clients to manage licenses for a proprietary ERP software web application. The dashboard supports role-based access for clients, regular users, and technical administrators, each with tailored features to streamline license management, billing, and platform administration.
 
 ### Important notice:
-This project is part of a larger ERP software web application. The code provided here represents the components I was directly involved in developing during my internship so please note that the available files may not represent the complete runnable application as this repository contains only the code specific to my contributions. To run the full application, other project components would need to be integrated.
+This project is part of a larger ERP software web application. The code provided here represents the components I was directly involved in developing during my internship so please note that the available files may not represent the real, final and complete runnable application as this repository contains only the code specific to my contributions. To run the full application, other project components would need to be integrated.
 
 ## Video Presentation
 
