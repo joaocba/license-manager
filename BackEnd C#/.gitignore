@@ -1,0 +1,22 @@
+﻿
+# Ignore bin and obj directories
+**/bin/
+**/obj/
+
+# Ignore temporary files created by Visual Studio or .NET
+*.user
+*.suo
+*.cache
+*.userprefs
+*.dll
+*.pdb
+*.exe
+*.log
+*.vspscc
+*.vssscc
+*.obj
+*.bin
+*.tmp
+*.csproj.user
+
+**/.vs

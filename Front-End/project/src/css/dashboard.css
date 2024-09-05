@@ -1,0 +1,162 @@
+/* Variables */
+:root {
+    --primary-color: #3270a6;
+    --secondary-color: #29a7d9;
+    --tertiary-color: #1dcbf2;
+    --quaternary-color: #16dcf2;
+    --quinary-color: #0d0d0d;
+    --sidebar-bg-color: #f3fbff;
+    --main-bg-color: #fcfeff;
+    --loader-color: #3498db;
+    --scrollbar-thumb-color: rgba(100, 100, 100, 0.5);
+    --scrollbar-track-color: rgba(255, 255, 255, 0.1);
+}
+
+/* DashboardLayout */
+.dashboard-body {
+    height: 100%;
+    width: 100%;
+    background: #d9f1ff;
+    /* background: linear-gradient(to bottom, #d9f1ff, #a3d8f4, #6bbce5); */
+    position: fixed;
+}
+
+/* Sidebar */
+.dashboard-sidebar-nav {
+    background-color: var(--sidebar-bg-color);
+}
+
+.dashboard-sidebar-nav-items a:hover {
+    color: white;
+}
+
+.dashboard-sidebar-nav-items .dropdown-menu {
+    transition: opacity 300ms ease-out, max-height 300ms ease-out;
+}
+
+.dashboard-sidebar-nav-items .dropdown-menu.fade-out {
+    opacity: 0;
+    max-height: 0;
+}
+
+.dropdown-menu {
+    transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+/* Main Content Wrapper */
+.dashboard-main-content {
+    background-color: var(--main-bg-color);
+}
+
+/* Custom Scrollbar Styles */
+.custom-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: var(--scrollbar-thumb-color) var(--scrollbar-track-color);
+}
+
+/* Dashboard Loader Styles */
+.loader {
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    border-left-color: var(--loader-color);
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.opacity-0 {
+    opacity: 0;
+}
+
+.opacity-100 {
+    opacity: 1;
+    transition: opacity 1s ease-in;
+}
+
+/* Toggle Switch Styles (used in Profile page) */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 36px;
+    height: 20px;
+    margin-right: 4px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: 0.4s;
+    border-radius: 20px;
+}
+
+.toggle-slider:before {
+    position: absolute;
+    content: "";
+    height: 14px;
+    width: 14px;
+    left: 3px;
+    bottom: 3px;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 50%;
+}
+
+input:checked + .toggle-slider {
+    background-color: #2196f3;
+}
+
+input:checked + .toggle-slider:before {
+    transform: translateX(16px);
+}
+
+/* Alert Message component Styles */
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeout {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+/* License Manager page Styles */
+#license-manager-list {
+    border-radius: 2px;
+}
+
+/* Custom CSS to hide number input arrows */
+.no-arrows::-webkit-inner-spin-button,
+.no-arrows::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.no-arrows {
+    -moz-appearance: textfield; /* Firefox */
+}
