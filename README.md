@@ -7,7 +7,7 @@ This is part of a larger ERP software web application. The code provided here re
 
 ## Video Presentation
 
-[![Video Presentation]](https://www.youtube.com/watch?v=h3iOI6brIro)
+[https://www.youtube.com/watch?v=h3iOI6brIro](https://www.youtube.com/watch?v=h3iOI6brIro)
 
 ## Features
 
