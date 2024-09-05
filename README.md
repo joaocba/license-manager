@@ -3,7 +3,7 @@
 This project, developed as part of my internship for the Citeforma .NET developer course certification, is a License Manager Dashboard. It enables clients to manage licenses for a proprietary ERP software web application. The dashboard supports role-based access for clients, regular users, and technical administrators, each with tailored features to streamline license management, billing, and platform administration.
 
 ### Important notice:
-This project is part of a larger ERP software web application. The code provided here represents the components I was directly involved in developing during my internship so please note that the available files may not represent the real, final and complete runnable application as this repository contains only the code specific to my contributions. To run the full application, other project components would need to be integrated.
+This is part of a larger ERP software web application. The code provided here represents the similar components code I was directly involved in developing during my internship. **Please note that the available files do not represent the real andl final runnable application code** as this repository contains only the code specific to my contributions. To run the full application, other project components would need to be integrated.
 
 ## Video Presentation
 
@@ -11,61 +11,70 @@ This project is part of a larger ERP software web application. The code provided
 
 ## Features
 
+### General Features:
+- **Responsive UI/UX**: A dynamic and fluid interface that adapts to various screen sizes and user roles.
+- **Authentication System**: 
+  - Login system with role-based dashboard rendering.
+  - Account creation and password recovery system.
+- **Home Page with Metrics**: Summary cards and key performance indicators tailored to each user’s role.
+- **Role-Based Dashboards**: Rendered based on user type (Client, Tech Admin, or Regular User).
+
 ### 1. **Client Dashboard**
 - **License Management**:
-  - Purchase licenses (types: Basic, Medium, Pro), each offering a specific package of ERP modules.
-  - Upgrade or downgrade licenses, with automatic payment adjustments or wallet refunds for downgrades.
+  - Purchase licenses of different types (Basic, Medium, Pro), each offering a specific package of ERP software modules.
+  - Upgrade or downgrade licenses with automatic calculations for payment or refund (refunds added to wallet credits).
   - Enable or disable licenses temporarily without unassigning users.
-  - Assign or unassign licenses to users, including bulk actions for multiple licenses.
-  - View detailed information for each license, including type, expiration, and assigned users.
-  - Monitor non-assigned licenses and expired licenses in separate lists.
+  - Assign or unassign licenses to users, with bulk actions for handling multiple licenses.
+  - View license metrics, including total and remaining licenses, type, expiration, and assigned users.
+  - Separate panels for non-assigned licenses and expired licenses, with the option to manage them.
 
 - **User Invitations**:
-  - Invite users via email to access specific licenses.
-  - Manage user assignments directly from the license panel.
+  - Invite users via email to use specific licenses.
+  - Manage user assignments from the license manager panel.
 
 - **Billing and Payments**:
-  - Simulate license pricing and view detailed summaries before confirming transactions.
-  - Track wallet credits (from downgrades or other refunds) and default payment methods.
-  - Access a full transaction history and billing records.
+  - Simulate license pricing with detailed cost summaries for purchases or upgrades.
+  - Track wallet credits, default payment methods, and transaction records.
+  - Access transaction history and billing records, with detailed payment options and logs.
 
 - **Activity Tracking**:
-  - View comprehensive logs for all actions performed on the license manager panel, with filters for specific events and time ranges.
+  - View logs and metrics for all license-related actions.
+  - Filter logs by event type, date, or other parameters to monitor specific activities.
 
-### 2. **Tech Admin Dashboard**
+### 2. **Tech Admin Dashboard** (Platform Administrator)
 - **License Inspector**:
-  - Inspect details of all licenses across the platform, with filters and search options for efficient navigation.
+  - Inspect and filter details of all licenses across clients and companies.
+  - Temporarily disable specific licenses for certain clients or companies.
 
 - **User Management**:
-  - Administer users across the platform, with options for creating, editing, and assigning roles.
+  - Administer platform-wide user management, including adding, editing, or assigning roles.
 
 - **Package Manager**:
-  - Manage the available ERP software modules within each license package, and adjust settings as necessary.
+  - Manage the ERP software modules associated with each license package, including modifying and updating settings.
 
 - **Platform Settings**:
-  - Configure platform-wide settings, including:
-    - General settings: language, time, maintenance options.
-    - License settings: base prices, quantity-based discounts, temporarily disable licenses for specific clients or companies.
-    - Payment settings: available payment methods, invoice templates, and transaction settings.
+  - Configure general platform settings (e.g., language, time, maintenance options).
+  - Adjust license settings (e.g., base prices, discounts for bulk purchases, disable/enable licenses for specific clients).
+  - Manage payment settings (e.g., available payment methods, invoice templates).
 
-### 3. **Regular User Dashboard**
+### 3. **Regular User Dashboard** (Invited by Client)
 - **License Overview**:
-  - View metrics for the license(s) assigned to the user, including type, usage, and expiration date.
+  - View the license(s) assigned to the user, including license type, usage, and expiration.
   
 - **Profile Management**:
-  - Manage personal account settings, including password, notification preferences, and account details.
+  - Manage account details such as passwords, notification preferences, and other personal settings.
 
 - **Notifications & Messages**:
-  - Receive and review platform notifications and messages.
+  - Receive platform-wide notifications and messages from administrators or clients.
 
 ## Project Architecture
 
 ### Frontend
-- **ReactJs**: A fully responsive, dynamic, and fluid UI designed to work seamlessly across all device types. Tailored dashboards are rendered based on the user's role (Client, Tech Admin, Regular User).
+- **ReactJs**: A fully responsive, dynamic UI, with tailored dashboards for clients, technical administrators, and regular users.
 
 ### Backend
 - **ASP.NET with Controller-Based APIs**: 
-  - Manages authentication, authorization, and all core business logic, including license actions, payments, and user management.
+  - Handles all core business logic, including authentication, license management, payments, and user roles.
 
 ## Screenshots
 
