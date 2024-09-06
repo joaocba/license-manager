@@ -88,10 +88,32 @@ This is part of a larger ERP software web application. The code provided here re
 
 ## Screenshots
 
-**Login, Register and Forgot Password**
+**Login, Sign-Up and Forgot Password**
+
 ![Login](https://github.com/joaocba/license-manager/blob/main/screenshots/login.png?raw=true)
-![Login](https://github.com/joaocba/license-manager/blob/main/screenshots/sign_up.png?raw=true)
-![Login](https://github.com/joaocba/license-manager/blob/main/screenshots/forgot_password.png?raw=true)
+![Sign-Up](https://github.com/joaocba/license-manager/blob/main/screenshots/sign_up.png?raw=true)
+![Forgot Password](https://github.com/joaocba/license-manager/blob/main/screenshots/forgot_password.png?raw=true)
+
+**Client Dashboard**
+
+![Client Dashboard](https://github.com/joaocba/license-manager/blob/main/screenshots/client_dashboard_license_manager_alerts.png?raw=true)
+![Client Dashboard](https://github.com/joaocba/license-manager/blob/main/screenshots/client_dashboard_license_manager.png?raw=true)
+![Client Dashboard](https://github.com/joaocba/license-manager/blob/main/screenshots/client_dashboard_license_manager_invite.png?raw=true)
+![Client Dashboard](https://github.com/joaocba/license-manager/blob/main/screenshots/client_dashboard_license_manager_upgrade_single.png?raw=true)
+![Client Dashboard](https://github.com/joaocba/license-manager/blob/main/screenshots/client_dashboard_license_manager_downgrade_bulk.png?raw=true)
+![Client Dashboard](https://github.com/joaocba/license-manager/blob/main/screenshots/client_dashboard_license_manager_logs.png?raw=true)
+![Client Dashboard](https://github.com/joaocba/license-manager/blob/main/screenshots/client_dashboard_transactions.png?raw=true)
+![Client Dashboard](https://github.com/joaocba/license-manager/blob/main/screenshots/client_dashboard_transactions_all.png?raw=true)
+![Client Dashboard](https://github.com/joaocba/license-manager/blob/main/screenshots/dashboard_responsive_small.png?raw=true)
+
+**Tech Admin (TA) Dashboard**
+
+**Invited User Dashboard**
+
+**Other Screens**
+
+![Dashboard Loader](https://github.com/joaocba/license-manager/blob/main/screenshots/dashboard_loader.png?raw=true)
+![401](https://github.com/joaocba/license-manager/blob/main/screenshots/dashboard_401.png?raw=true)
 
 
 ## License
