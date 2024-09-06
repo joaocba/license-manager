@@ -17,7 +17,7 @@ This is part of a larger ERP software web application. The code provided here re
 
 ## Video Presentation
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/h3iOI6brIro/0.jpg)](https://www.youtube.com/watch?v=h3iOI6brIro)
+[![Video Demo](https://img.youtube.com/vi/h3iOI6brIro/0.jpg)](https://www.youtube.com/watch?v=h3iOI6brIro)
 
 ## Features
 
@@ -107,13 +107,35 @@ This is part of a larger ERP software web application. The code provided here re
 ![Client Dashboard](https://github.com/joaocba/license-manager/blob/main/screenshots/dashboard_responsive_small.png?raw=true)
 
 **Tech Admin (TA) Dashboard**
+![TA Dashboard](https://github.com/joaocba/license-manager/blob/main/screenshots/ta_dashboard_home.png?raw=true)
+![TA Dashboard](https://github.com/joaocba/license-manager/blob/main/screenshots/ta_dashboard_license_inspector.png?raw=true)
+![TA Dashboard](https://github.com/joaocba/license-manager/blob/main/screenshots/ta_dashboard_settings_manager.png?raw=true)
+![TA Dashboard](https://github.com/joaocba/license-manager/blob/main/screenshots/ta_dashboard_settings_manager_global.png?raw=true)
+![TA Dashboard](https://github.com/joaocba/license-manager/blob/main/screenshots/ta_dashboard_settings_manager_license.png?raw=true)
+![TA Dashboard](https://github.com/joaocba/license-manager/blob/main/screenshots/ta_dashboard_settings_manager_billing.png?raw=true)
+![TA Dashboard](https://github.com/joaocba/license-manager/blob/main/screenshots/ta_dashboard_responsive_small_sidebar_open.png?raw=true)
+![TA Dashboard](https://github.com/joaocba/license-manager/blob/main/screenshots/ta_dashboard_responsive_small.png?raw=true)
 
 **Invited User Dashboard**
+![User Dashboard](https://github.com/joaocba/license-manager/blob/main/screenshots/user_dashboard_home_full.png?raw=true)
+![User Dashboard](https://github.com/joaocba/license-manager/blob/main/screenshots/user_dashboard_home_messages.png?raw=true)
+![User Dashboard](https://github.com/joaocba/license-manager/blob/main/screenshots/user_dashboard_home_notifications.png?raw=true)
+![User Dashboard](https://github.com/joaocba/license-manager/blob/main/screenshots/user_dashboard_home_profile.png?raw=true)
 
 **Other Screens**
 
 ![Dashboard Loader](https://github.com/joaocba/license-manager/blob/main/screenshots/dashboard_loader.png?raw=true)
 ![401](https://github.com/joaocba/license-manager/blob/main/screenshots/dashboard_401.png?raw=true)
+![Homepage Navbar](https://github.com/joaocba/license-manager/blob/main/screenshots/home_menu.png?raw=true)
+
+**ERP Web Application with enhanced UI**
+![ERP](https://github.com/joaocba/license-manager/blob/main/screenshots/app/app_backoffice_menu.png?raw=true)
+![ERP](https://github.com/joaocba/license-manager/blob/main/screenshots/app/app_lead_create_full.png?raw=true)
+![ERP](https://github.com/joaocba/license-manager/blob/main/screenshots/app/app_shortcuts_create.png?raw=true)
+![ERP](https://github.com/joaocba/license-manager/blob/main/screenshots/app/app_shortcuts_edit.png?raw=true)
+![ERP](https://github.com/joaocba/license-manager/blob/main/screenshots/app/app_support_create_ticket_full.png?raw=true)
+![ERP](https://github.com/joaocba/license-manager/blob/main/screenshots/app/app_responsive_small_screen.png?raw=true)
+![ERP](https://github.com/joaocba/license-manager/blob/main/screenshots/app/app_responsive_small_screen_sidebar_open.png?raw=true)
 
 
 ## License
