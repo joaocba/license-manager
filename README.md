@@ -5,6 +5,15 @@ This project, developed as part of my internship for the Citeforma .NET develope
 ### Important notice:
 This is part of a larger ERP software web application. The code provided here represents the similar components code I was directly involved in developing during my internship. **Please note that the available files do not represent the real andl final runnable application code** as this repository contains only the code specific to my contributions. To run the full application, other project components would need to be integrated.
 
+### Tech Stack
+![React](https://img.shields.io/badge/ReactJs-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
+![ASP.NET](https://img.shields.io/badge/ASP.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)
+![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
+
 ## Video Presentation
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/h3iOI6brIro/0.jpg)](https://www.youtube.com/watch?v=h3iOI6brIro)
