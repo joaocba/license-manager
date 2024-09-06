@@ -132,7 +132,7 @@ This is part of a larger ERP software web application. The code provided here re
 ![ERP](https://github.com/joaocba/license-manager/blob/main/screenshots/app/app_backoffice_menu.png?raw=true)
 ![ERP](https://github.com/joaocba/license-manager/blob/main/screenshots/app/app_lead_create_full.png?raw=true)
 ![ERP](https://github.com/joaocba/license-manager/blob/main/screenshots/app/app_shortcuts_create.png?raw=true)
-![ERP](https://github.com/joaocba/license-manager/blob/main/screenshots/app/app_shortcuts_edit.png?raw=true)
+![ERP](https://github.com/joaocba/license-manager/blob/main/screenshots/app/app_shortcuts_shortcuts_edit.png?raw=true)
 ![ERP](https://github.com/joaocba/license-manager/blob/main/screenshots/app/app_support_create_ticket_full.png?raw=true)
 ![ERP](https://github.com/joaocba/license-manager/blob/main/screenshots/app/app_responsive_small_screen.png?raw=true)
 ![ERP](https://github.com/joaocba/license-manager/blob/main/screenshots/app/app_responsive_small_screen_sidebar_open.png?raw=true)
