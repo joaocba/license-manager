@@ -88,8 +88,10 @@ This is part of a larger ERP software web application. The code provided here re
 
 ## Screenshots
 
-**User Dashboard**
-![User Dashboard](https://github.com/joaocba/outsystems_expenses-manager-app/blob/main/screenshots/User_View_Dashboard.png?raw=true)
+**Login, Register and Forgot Password**
+![Login](https://github.com/joaocba/license-manager/blob/main/screenshots/login.png?raw=true)
+![Login](https://github.com/joaocba/license-manager/blob/main/screenshots/sign_up.png?raw=true)
+![Login](https://github.com/joaocba/license-manager/blob/main/screenshots/forgot_password.png?raw=true)
 
 
 ## License
