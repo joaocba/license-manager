@@ -120,7 +120,7 @@ This repository contains a side development project related to a larger ERP soft
 ![User Dashboard](https://github.com/joaocba/license-manager/blob/main/screenshots/user_dashboard_home_full.png?raw=true)
 ![User Dashboard](https://github.com/joaocba/license-manager/blob/main/screenshots/user_dashboard_home_messages.png?raw=true)
 ![User Dashboard](https://github.com/joaocba/license-manager/blob/main/screenshots/user_dashboard_home_notifications.png?raw=true)
-![User Dashboard](https://github.com/joaocba/license-manager/blob/main/screenshots/user_dashboard_home_profile.png?raw=true)
+![User Dashboard](https://github.com/joaocba/license-manager/blob/main/screenshots/user_dashboard_profile.png?raw=true)
 
 **Other Screens**
 
